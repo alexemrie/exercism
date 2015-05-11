@@ -20,5 +20,21 @@ Bob.prototype.hey = function(input) {
   }
 };
 
+// Bob.prototype.hey = function(input) {
+//   var output;
+//   if (input.trim().length === 0) {
+//     output = "Fine. Be that way!";
+//   } else if (input.toUpperCase() === input && input.match(/[A-z]/)) {
+//     output = "Whoa, chill out!";
+//   } else if (input.charAt(input.length - 1) === '?') {
+//     output = 'Sure.';
+//   } else {
+//     output = 'Whatever.';
+//   }
+//
+//   return output;
+// };
+
+
 
 module.exports = Bob;
